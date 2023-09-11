@@ -16,17 +16,19 @@ The layout of each week's html page is pretty much the same. They contains about
        <script src="./week1.js">
        </script> 
   ```
-    
+
+ The first js file will create HTML nodes defined in the second js file. The second js file is basically a collection of javscript arrays, each of which contains the html code.   
+
 ## Registration for the camp
 
-The registration is written in PhP. It is connected directly to a database hosted in my personal website. Changes are required. Input data validation is included from names and email address. Another PhP file is used to view registration without login.
+The registration is written in PhP. It is connected directly to a database hosted in my personal website. Changes are required. Input data validation is included for names and email address. Another PhP file is used to view registration without login.
 
 - register.php
 - viewReg.php
 
 ## Breakdown of Bootstrap styles
 
-There are separate style files which come from the boostrap 5.0 style files. They include the following categories/
+There are separate style files which come from the boostrap 5.0 style files. Each of them is about a particular CSS property. The following list is enough for most webpage development. Animation, transistion and transformation are not covered.
 
 - backgroundColor
 - border
