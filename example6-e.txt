@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <link rel="stylesheet" href="./myFramework-typography.css">
+      <link rel="stylesheet" href="./myFramework-container.css">
+      <link rel="stylesheet" href="./myFramework-rowColumn.css">
+      <link rel="stylesheet" href="./myFramework-border.css">
+      <link rel="stylesheet" href="./myFramework-corner.css">
+      <link rel="stylesheet" href="./myFramework-margin.css">
+      <link rel="stylesheet" href="./myFramework-padding.css">
+      <link rel="stylesheet" href="./myFramework-text.css">
+      <link rel="stylesheet" href="./myFramework-backgroundColor.css">
+      <link rel="stylesheet" href="./myFramework-shadow.css">
+      <link rel="stylesheet" href="./myFramework-navigation.css">
+      <link rel="stylesheet" href="./myFramework-position.css">
+      <link rel="stylesheet" href="./myFramework-cursor.css">
+      <link rel="stylesheet" href="./myFramework-widthHeight.css">
+      <link rel="stylesheet" href="./myFramework-d.css">
+    </head>
+
+<body>
+<header class="container-fluid border border-3  mb-2 pt-3 pb-2 text-center text-uppercase text-success bg-info shadow-lg">
+        <h1 class="fs-2 text-warning">2023 Bootcamp in HTML+CSS</h1>
+        <p>ASU NASA STEM Summer Camp</p> 
+
+</header>
+<!-- Nav tabs -->
+<ul class="nav nav-tabs" id="myTab">
+    <li class="nav-item">
+      <button class="nav-link active" id="home-tab" data-bs-target="#home" type="button">Home </button>
+    </li>
+    <li class="nav-item">
+      <button class="nav-link" id="profile-tab"  data-bs-target="#profile" type="button" >Introduction</button>
+    </li>
+    <li class="nav-item">
+      <button class="nav-link" id="messages-tab"  data-bs-target="#messages" type="button" >Cryptography</button>
+    </li>
+  </ul>
+  
+  <!-- Tab panes -->
+  <div class="tab-content" id="myTabContent">
+    <div class="tab-pane active" id="home" >
+      <main class="row">
+        <aside class="col col-2 border">
+            <div>
+                <div>
+                    <a href="">Home</a>
+                </div>
+                <div>
+                    <a href="">Introduction</a>
+                </div>
+                <div>
+                    <a href="">Cryptography</a>
+                </div>
+            </div>
+        </aside>
+        
+        <section  class="col">
+          <div>  
+            <p> This is my first webpage</p>
+            <h3> Introduction </h3>
+            <ul>
+                <li>Algebra 1</li>
+                <li>Algebra 2</li>
+            </ul>
+
+
+            <div> TBA</div>
+
+            <div>
+                <div>
+                    <h4>Wanjun Hu</h4>
+                    <img src="OIP.jpg">
+                </div>
+            </div>   
+
+            <div class="tab-content position-relative w-75 h-20vw border border-3" id="slideShow1">
+              <div class="tab-pane active position-relative w-100 h-100 border">
+                  <div class="position-absolute top-0 text-dark fs-5">1 / 3</div>
+                  <img src="OIP.jpg" class="w-100 h-100">
+                  <div class="position-absolute ">Caption Text</div>
+              </div>
+              <div class="tab-pane  position-relative w-100 h-100">
+                  <div class="position-absolute top-0 text-dark fs-5">2 / 3</div>
+                  <img src="OIP1.jpg" class="w-100 h-100">
+                  <div class="position-absolute ">Caption Text</div>
+              </div>
+              <div class="tab-pane  position-relative w-100 h-100">
+                  <div class="position-absolute top-0 text-dark fs-5">3 / 3</div>
+                  <img src="OIP3.jpg" class="w-100 h-100">
+                  <div class="position-absolute ">Caption Text</div>
+              </div>
+
+              </script>
+            
+
+            </div>
+
+
+          </div>
+        </section>
+      </main>
+  
+    
+    </div>
+    <div class="tab-pane" id="profile" >
+      <main class="container-fluid">
+        <h1>Introduction</h1>
+        <div class="row">
+            <div class="col col-4">
+                <h3>Column 1</h3>
+            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+            </div>
+            <div class="col col-4">
+                <h3>Column 2</h3>
+            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+            </div>
+            <div class="col col-4">
+                <h3>Column 3</h3>
+            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+        </div>
+      </main>
+    </div>
+    <div class="tab-pane" id="messages" >
+      <div class="container-fluid">
+        <h1>Cryptography</h1>
+        <div class="row">
+            <div class="col col-6">
+                <h3>Column 1</h3>
+            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+            </div>
+            <div class="col col-6">
+                <h3>Column 2</h3>
+            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <footer class="container-fluid border  border-2 border-warning  text-center  text-success bg-info shadow-lg">
+    <div class="row">
+        <div class = "col fs-3quarter m-0 p-0  text-start">
+            <h6 class="m-0 p-0  fs-3quarter"><u>ASU Links</u></h6>
+            <ul class="m-0 p-0 text-start" style="list-style-type: none;">
+                <li><a href="https://www.asurams.edu/academic-affairs/college-of-arts-sciences/index.php" target="_blank">College of Arts & Sci.</a></li>
+                <li><a href="https://www.asurams.edu/academic-affairs/college-of-arts-sciences/mathematics-computer_science-physics/index.php" target="_blank">Dept. Math, CS & Physics</a></li>
+            </ul> 
+            
+        </div>
+        <div class = "col  fs-3quarter m-0 p-0  text-start">
+            <h6 class="m-0 p-0  fs-3quarter"><u>CS degree programs</u></h6>
+            <ul class="m-0 p-0 text-start" style="list-style-type: none;">
+              <li><a href="https://catalog.asurams.edu/undergraduate/arts-sciences/mathematics-computer-science/computer-science-bachelor-science/" target="_blank">BS in Computer Science</a></li>
+              <li><a href="https://catalog.asurams.edu/undergraduate/degree-programs/#text" target="_blank">Associate of Sci. in STEM</a></li>
+            </ul> 
+        </div>
+        <div class = "col  fs-3quarter m-0 p-0  text-start">
+            <h6 class="m-0 p-0  fs-3quarter" ><u>Other links</u></h6>
+            <ul class="m-0 p-0 text-start" style="list-style-type: none;">
+              <li><a href="https://www.asurams.edu/enrollment-management/index.php" target="_blank">enrollment-management</a></li>
+              <li><a href="https://www.asurams.edu/academic-affairs/index.php" target="_blank">academic-affairs</a></li>
+              <li><a href="https://www.asurams.edu/student-affairs/osssc/index.php" target="_blank">Student support</a></li>
+            </ul>   
+        </div>
+
+    </div>
+    <span class="fs-3quarter border-top ps-5 pe-5">Copyright: Albany State University</span>
+  </footer>
+  
+  <script src="./navigation.js"></script>
+  <script>   
+    //alert(TabList.length); 
+    let myTab = "#myTab button";
+    let myTabContent = "#myTabContent > div";
+
+    setupTabs(myTab, myTabContent);
+  </script>
+</body>
+
+</html>

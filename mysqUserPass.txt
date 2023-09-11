@@ -1,0 +1,5 @@
+mysql database (MySQL Database Wizard)
+
+database: backups6_BOOTCAMP_ASU
+user: backups6_whu
+password: bootcamp@asu

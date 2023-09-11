@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test 3 - ASU Summer Bootcamp in HTML+CSS</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<!--    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+-->
+    <link rel="stylesheet" href="./myFramework-typography.css">
+    <link rel="stylesheet" href="./myFramework-container.css">
+    <link rel="stylesheet" href="./myFramework-rowColumn.css">
+    <link rel="stylesheet" href="./myFramework-border.css">
+    <link rel="stylesheet" href="./myFramework-corner.css">
+    <link rel="stylesheet" href="./myFramework-margin.css">
+    <link rel="stylesheet" href="./myFramework-padding.css">
+    <link rel="stylesheet" href="./myFramework-text.css">
+    <link rel="stylesheet" href="./myFramework-backgroundColor.css">
+    <link rel="stylesheet" href="./myFramework-shadow.css">
+    <link rel="stylesheet" href="./myFramework-navigation.css">
+    <link rel="stylesheet" href="./myFramework-position.css">
+    <link rel="stylesheet" href="./myFramework-cursor.css">
+    <link rel="stylesheet" href="./myFramework-widthHeight.css">
+    <link rel="stylesheet" href="./myFramework-d.css">
+  </head>
+<body>
+      <div class="container text-center p-3 bg-light">
+        <h2>Summer Bootcamp With HTML + CSS</h2>
+        <p>A Project of The ASU SSEP Summer STEM Program</p> 
+        <p>Albany State University, GA </p>
+      </div>
+<!--
+      <div class="bd-example w-50 h-50">
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: First slide" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#555" dy=".3em">First slide</text></svg>
+        
+            </div>
+            <div class="carousel-item">
+              <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Second slide" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#666"/><text x="50%" y="50%" fill="#444" dy=".3em">Second slide</text></svg>
+        
+            </div>
+            <div class="carousel-item">
+              <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Third slide" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#555"/><text x="50%" y="50%" fill="#333" dy=".3em">Third slide</text></svg>
+        
+            </div>
+          </div>
+        </div>
+        </div>
+      <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./OIP.jpg" class="d-block w-50" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./OIP1.jpg" class="d-block w-50" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./OIP2.jpg" class="d-block w-50" alt="...">
+          </div>
+        </div>
+      </div>
+
+      <br><br>
+
+
+
+      <div class="bd-example w-50 h-50">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: First slide" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#555" dy=".3em">First slide</text></svg>
+        
+            </div>
+            <div class="carousel-item">
+              <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Second slide" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#666"/><text x="50%" y="50%" fill="#444" dy=".3em">Second slide</text></svg>
+        
+            </div>
+            <div class="carousel-item">
+              <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Third slide" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#555"/><text x="50%" y="50%" fill="#333" dy=".3em">Third slide</text></svg>
+        
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+
+
+        <div class="container p-3 bg-light">
+            <h2>Weekly Schedule - Week 4</h2>
+            <div class="row border-3 border">
+                <div class="col col-3">
+                    Monday
+                </div>
+                <div class="col col-9 border border-3">
+                    Complete the first webpage for your website
+                </div>  
+            </div>
+            <div class="row  border-3 border">
+                <div class="col col-3">
+                    Tuesday
+                </div>
+                <div class="col col-9  border-3 border">
+                    Complete the second webpage for your website     `
+                </div>
+            </div>
+            <div class="row border-3 border">
+                <div class="col col-3">
+                    Wednesday   
+                </div>
+                <div class="col col-9 border-3 border">
+                    Complete the third webpage for your website 
+                </div>        
+            </div>
+            <div class="row border-3 border">
+                <div class="col col-3">
+                    Thursday
+                </div>
+                <div class="col col-9 border-3 border">
+                    Complete the fourth webpage for your website    
+                </div>
+            </div>
+            <div class="row border-3 border">
+                <div class="col col-3">
+                    Friday
+                </div>
+                <div class="col col-9 border-3 border">
+                    Host your webpages to the website<br>
+                    Ceremory for the completion of the course<br>
+                </div>
+            </div>
+        </div>
+        <br><br>
+    -->
+        <!-- Carousel -->
+<!--
+        <div id="demo" class="carousel slide" data-bs-ride="carousel">
+        
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+    </div>
+  
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="OIP.jpg" alt="Los Angeles" class="d-block w-100">
+      </div>
+      <div class="carousel-item">
+        <img src="OIP1.jpg" alt="Chicago" class="d-block w-100">
+      </div>
+      <div class="carousel-item">
+        <img src="OIP3.jpg" alt="New York" class="d-block w-100">
+      </div>
+    </div>
+  
+    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+
+  <script src="/docs/5.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
+  
+  <script src="/docs/5.0/assets/js/docs.min.js"></script>
+-->
+<!-------------------------------------------------------------
+  
+-->
+
+
+<!-- Slideshow container -->
+<style>
+  
+  /* Hide the images by default */
+
+  
+  
+  .prev-1,
+  .next-1 {
+    cursor: pointer;
+    transition: 0.6s ease;
+  }
+
+  .prev-1:hover, .next-1:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade1 {
+    animation-name: fade1;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade1 {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+</style>
+<div class="carousel tab-content container position-relative border w-75 h-30vw"  id="slideShow1">
+
+    <!-- Full-width images with number and caption text -->
+    <div class="tab-pane w-100 h-100 border border-3 position-relative active">
+      <div class="position-absolute top-0 text-dark fs-5">1 / 3</div>
+      <img src="OIP.jpg" class="w-100  h-100">
+      <div class="position-absolute bottom-halfRem fs-6 text-dark w-100 text-center">Caption Text</div>
+    </div>
+  
+    <div class="tab-pane w-100 h-100 border border-3 position-relative">
+      <div class="position-absolute top-0 text-dark fs-5">2 / 3</div>
+      <img src="OIP1.jpg" class="w-100  h-100">
+      <div class="position-absolute bottom-halfRem fs-6 text-dark w-100 text-center">Caption Two</div>
+    </div>
+  
+    <div class="tab-pane w-100 h-100 border border-3 position-relative">
+      <div class="position-absolute top-0 text-dark fs-5">3 / 3</div>
+      <img src="OIP3.jpg" class="w-100 h-100">
+      <div class="position-absolute bottom-halfRem fs-6 text-dark w-100 text-center">Caption Three</div>
+    </div>
+  
+    <!-- Next and previous buttons -->
+    <a class="position-absolute cursor-pointer top-50 mt--5 p-3 w-auto text-light  fs-1 rounded-2 user-select-none prev-1">&#10094;</a>
+    <a class="position-absolute cursor-pointer top-50 mt--5 p-3 w-auto text-light  fs-1 rounded-2 user-select-none end-1rem next-1">&#10095;</a>
+</div>
+  <br>
+  
+  <!-- The dots/circles -->
+<div class="text-center" id="slideShowDot1">
+    <span class="cursor-pointer h-1point5vw w-1point5vw bg-gray rounded-circle d-inline-block"></span>
+    <span class="cursor-pointer h-1point5vw w-1point5vw bg-light-gray rounded-circle d-inline-block"></span>
+    <span class="cursor-pointer h-1point5vw w-1point5vw bg-light-gray rounded-circle d-inline-block"></span>
+</div>
+
+
+<div class="carousel tab-content container position-relative border w-75 h-30vw" id="slideShow2">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="tab-pane w-100 h-100 border border-3 position-relative active">
+    <div class="position-absolute top-0 text-dark fs-5">A / 3</div>
+    <img src="OIP.jpg" class="w-100  h-100">
+    <div class="position-absolute bottom-halfRem fs-6 text-dark w-100 text-center">Caption Text</div>
+  </div>
+
+  <div class="tab-pane w-100 h-100 border border-3 position-relative">
+    <div class="position-absolute top-0 text-dark fs-5">B / 3</div>
+    <img src="OIP1.jpg" class="w-100  h-100">
+    <div class="position-absolute bottom-halfRem fs-6 text-dark w-100 text-center">Caption Two</div>
+  </div>
+
+  <div class="tab-pane w-100 h-100 border border-3 position-relative">
+    <div class="position-absolute top-0 text-dark fs-5">C / 3</div>
+    <img src="OIP3.jpg" class="w-100  h-100">
+    <div class="position-absolute bottom-halfRem fs-6 text-dark w-100 text-center">Caption Three</div>
+  </div>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div class="text-center" id="slideShowDot2">
+  <span class="cursor-pointer h-1point5vw w-1point5vw bg-gray rounded-circle d-inline-block"></span>
+  <span class="cursor-pointer h-1point5vw w-1point5vw bg-light-gray rounded-circle d-inline-block"></span>
+  <span class="cursor-pointer h-1point5vw w-1point5vw bg-light-gray rounded-circle d-inline-block"></span>
+</div>
+
+<script>
+let slideIndex = 0;
+
+setupListenerDot('#slideShow1 >div', '#slideShowDot1 > span', '#slideShow1 > a');
+setupListenerArrow('#slideShow1 >div', '#slideShowDot1 > span', '#slideShow1 > a');
+
+
+function setupListenerDot(slideshow, slidedot, slidearrow) {
+  //let slides = document.querySelectorAll(slideshow);
+  let dots   = document.querySelectorAll(slidedot);
+
+
+  dots.forEach(function(dot, index) {
+    dot.addEventListener("click", function(){
+      slideListner(index, slideshow, slidedot);
+    });
+  });
+}
+
+function setupListenerArrow(slideshow, slidedot, slidearrow) {
+  let arrows = document.querySelectorAll(slidearrow);
+  let slides = document.querySelectorAll(slideshow);
+  arrows[1].addEventListener("click", function(){
+    slideIndex ++;
+    if (slideIndex >= slides.length) {slideIndex = 0}
+    slideListner(slideIndex, slideshow, slidedot);
+  });
+
+  arrows[0].addEventListener("click", function(){
+    slideIndex --;
+    if (slideIndex < 0) {slideIndex = slides.length-1}
+    slideListner(slideIndex, slideshow, slidedot);
+  });
+
+}
+
+function slideListner(index, slideshow, slidedot){
+  let slides = document.querySelectorAll(slideshow);
+  let dots   = document.querySelectorAll(slidedot);
+  for (i = 0; i < slides.length; i++) {
+        slides[i].classList.remove("active");
+  }
+  
+  for (i = 0; i < dots.length; i++) {
+        dots[i].classList.replace("bg-gray", "bg-light-gray");
+  }
+      //slides[slideIndex-1].style.display = "block";
+  slides[index].classList.add("active");
+  if(dots.length  > 0)
+    dots[index].classList.replace("bg-light-gray", "bg-gray");
+}
+
+
+
+
+let slideIndex2 = 0;
+
+
+setupListenerDot('#slideShow2 >div', '#slideShowDot2 > span', '#slideShow2 > a');
+showSlides2();
+
+function showSlides2() {
+  let i;
+  let slides = document.querySelectorAll('#slideShow2 > div');
+  let dots   = document.querySelectorAll('#slideShowDot2 > span');
+
+  for (i = 0; i < slides.length; i++) {
+    slides[i].classList.remove("active");  
+  }
+  slideIndex2++;
+  if (slideIndex2 > slides.length) {slideIndex2 = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].classList.replace("bg-gray", "bg-light-gray");
+  }
+  slides[slideIndex2-1].classList.add("active");  
+  dots[slideIndex2-1].classList.replace("bg-light-gray", "bg-gray");
+  setTimeout(showSlides2, 2000); // Change image every 2 seconds
+}
+</script>
+
+
+
+
+
+
+</body>
+</html>

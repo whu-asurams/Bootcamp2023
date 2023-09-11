@@ -1,0 +1,30 @@
+.cursor-pointer {
+  cursor: pointer !important;
+}
+.cursor-crosshair {
+  cursor: crosshair !important;
+}
+.cursor-crosshair {
+  cursor: crosshair !important;
+}
+.cursor-zoom-in {
+  cursor: zoom-in !important;
+}
+.cursor-zoom-out {
+  cursor: zoom-out !important;
+}
+.cursor-grab {
+  cursor: grab !important;
+}
+.cursor-grabbing {
+  cursor: grabbing !important;
+}
+.cursor-not-allowed {
+  cursor: not-allowed !important;
+}
+.user-select-all {
+  -webkit-user-select: all !important;
+  -moz-user-select: all !important;
+  -ms-user-select: all !important;
+  user-select: all !important;
+}

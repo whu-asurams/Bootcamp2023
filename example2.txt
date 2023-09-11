@@ -1,0 +1,97 @@
+* {
+    box-sizing:         border-box;
+}
+
+header{
+    color:              white; 
+    font-family:        Verdana, Geneva, Tahoma, sans-serif;
+    font-size:          24px;
+
+    padding-top :       30px;
+    padding-bottom:     20px;
+
+    text-align :        center;
+    
+    margin :            0px;
+    border:             0px solid rgb(71, 71, 29);
+    background-color:   rgb(243, 122, 122);
+    width:100%;
+    /*
+      height, 
+      outline, 
+      display,
+      max-width, 
+      align, 
+      pseudo-element, 
+      float, 
+      overflow 
+    */
+
+    font-stretch:       ultra-expanded;
+    font-weight:        100;	
+
+    Letter-spacing:     5px;                /* others: normal, 3px */
+    white-space:        normal;             /* Others:  nowrap | pre | pre-line | pre-wrap  */
+    word-break:         normal;             /* others:  break-all | keep-all | break-word  */
+    word-spacing:       10px;               /* others:  normal, 4px  */ 
+    word-wrap:          normal;	            /* others: break-word */
+    writing-mode:       horizontal-tb;      /* others:  vertical-rl | vertical-lr; */
+
+    text-shadow:        1px 1px 2px red,      0 0 25px green,    0 0 5px orange;
+
+}
+
+
+nav{
+    background-color:   rgb(238, 91, 145);
+    padding-top:        10px;
+    padding-bottom:     10px;
+    text-align :        left;
+}
+
+main{
+    
+    border:             1px solid blue;
+    
+    width:              100%;
+    background-color:   lightskyblue;
+
+    position:           relative;
+}
+
+
+
+main > aside {
+    width:              20%;
+    height:             100%;
+
+    position:           absolute;
+    left:               0px;
+    top:                0px;
+
+    
+    border-right:       1px solid green;
+      
+    background-color:   rgb(236, 90, 144);
+}
+
+main > section {
+    width:              80%;
+ 
+
+    background-color:   darkgray;
+
+    position:           relative;
+    left :              20%;
+    border:             1px solid green;
+ 
+}
+
+footer{
+    width:              100%;
+    background-color:   brown;
+    color:              white;
+    padding-top:        20px;
+    padding-bottom:     10px;
+    text-align:         center;
+}

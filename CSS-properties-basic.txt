@@ -1,0 +1,135 @@
+////  basic styles:
+
+///*   1. Element shapes   *///
+display: 		block;   	// others:  inline | inline-block | table | ...
+visibility:		visible  	// Others:  hidden | collapse
+
+border: 		1px solid green;
+border-left:		1px solid green;
+border-right:		1px solid green;
+border-top:		1px solid green;
+border-bottom:		1px solid green;
+border-left-color: 	green;
+border-left-radius: 	20px;  		//others: 50%
+border-left-style:	dashed;
+border-left-width: 	5px;
+
+border-image:		url("bear.jpg") 30 round;
+border-image-outset:	10px		//Others: 10
+border-image-repeat:	stretch; 	//Others: repeat | round | space
+border-image-slice:	2;		//others: 10% | fill
+border-image-source:	url("bear.jpg");
+border-image-width:	1px;		//others: 1 | 10% | auto
+
+outline: 		2px dashed blue;
+outline-color:		green;
+outline-offset: 	15px;
+outline-style:		dashed;
+outline-width:		2px;		//others: medium | thin | thick 
+
+padding: 		50px;
+padding-left: 		50px;
+padding-right: 		50px;
+padding-top: 		50px;
+padding-bottom: 	50px;
+
+margin: 		50px;
+margin-left: 		50px;
+margin-right: 		50px;
+margin-top: 		50px;
+margin-bottom: 		50px;
+
+width: 			100%;
+max-width:		600px;
+min-width:		300px;
+
+height: 		500px;
+max-height:		700px;
+min-height:		300px;
+
+background:	  	rgba(0, 128, 0, 0.3)
+background-color: 	gray;
+background-image: 	url("bear.jpg");
+background-repeat: 	repeat-x;  	// others: no-repeat |  repeat-y
+background-attachment: 	scroll		// others: fixed | local
+background-position:   	center;   	// others: left top, left center, left bottom, right top, right center, 
+					//         right bottom, center top, center center, center bottom,
+					//	   0% 0%, 0px 0px
+background-size:      	auto    	// others: 400px 300px,  50% 40%,  cover, contain
+
+
+ 	
+
+opacity:		0.3;
+
+box-shadow:		0 4px 8px 5px rgba(1, 0, 1, 0.2),        0 6px 20px 5px rgba(1, 0, 1, 0.19);
+overflow: 		auto;		//others:  visible | hidden | scroll 
+overlow-wrap:		normal;		// others: anywhere | break-word
+overflow-x:		auto;
+overflow-y:		auto;
+
+
+///*   2. Position of the element    *////
+
+position: 		relative;   // others: absolute, fixed, sticky
+float:			left;	    // not used with position property.
+
+left: 			0px;
+right: 			0px;
+top:			0px;
+bottom: 		0px;
+
+///*   3. Content inside the element    *///
+
+color: 			red;
+font-size: 		48px;
+font-family:		"Times New Roman", Times, serif;
+font-feature-settings:	"smcp" on;
+font-kerning:		auto;  		//others: normal | none;
+					//It is about space between fonts
+font-size-adjust:	0.58;		//It is about adjust font size when the first
+					// font is not available and the second font is used.
+font-stretch:		normal;		//It is about the width of a font
+					//Others: ultra-condensed | extra-condensed | condensed |
+					//	semi-condensed | semi-expanded | expanded |
+						extra-expanded | ultra-expanded
+font-style:		italic		// Others: normal | oblique | 	
+font-variant:		small-caps;	// Others: normal
+font-variant-caps:	normal		// Others: small-caps | all-small-caps | petite-caps |
+						all-petite-caps | unicase | titling-caps |unset
+
+font-weight:		900;		//Others:  normal | bold | bolder | lighter | a number in (100, 900)
+
+text-align:		center;
+
+hyphens:		auto;		//Others: none | manual 
+
+Letter-spacing:		normal;		// others: 3px 
+white-space:		normal;		//Others:  nowrap | pre | pre-line | pre-wrap
+word-break:		normal;		//others:  break-all | keep-all | break-word
+word-spacing:		normal;		//others:  4px 
+word-wrap:		normal;		// others: break-word
+writing-mode:		horizontal-tb;	//others:  vertical-rl | vertical-lr;
+
+text-shadow: 		1px 1px 2px red,      0 0 25px green,    0 0 5px orange;
+
+
+///*   4. Miscenaneous 			*///
+
+cursor: alias;				// others:  all-scroll | auto | cell | copy |
+					//	    context-menu | col-resize | crosshair  |
+					//	    default | e-resize | ew-resize | grab |
+					//	    grabbing | help | move | n-resize | ne-resize |
+					//	    nesw-resize | ns-resize | nw-resize |
+					//	    nwse-resize | no-drop | none | not-allowed |
+					//	    pointer | progress | row-resize | s-resize |
+					//	    se-resize | sw-resize | text | url(myBall.cur)|
+					//	    vertical-text | w-resize | wait | zoom-in |
+					//	    zoom-out 
+
+all			initial;	// others: initial|inherit|unset
+	
+
+
+
+

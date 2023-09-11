@@ -1,0 +1,9 @@
+
+<script src="./navigation.js"></script>
+<script>   
+  //alert(TabList.length); 
+  let myTab = "#myTab button";
+  let myTabContent = "#myTabContent > div";
+
+  setupTabs(myTab, myTabContent);
+</script>
