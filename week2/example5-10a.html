@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <link rel="stylesheet" href="../styles/myFramework-typography.css">
+      <link rel="stylesheet" href="../styles/myFramework-container.css">
+      <link rel="stylesheet" href="../styles/myFramework-rowColumn.css">
+      <link rel="stylesheet" href="../styles/myFramework-border.css">
+      <link rel="stylesheet" href="../styles/myFramework-corner.css">
+      <link rel="stylesheet" href="../styles/myFramework-margin.css">
+      <link rel="stylesheet" href="../styles/myFramework-padding.css">
+      <link rel="stylesheet" href="../styles/myFramework-text.css">
+        <link rel="stylesheet" href="../styles/myFramework-backgroundColor.css">
+        <link rel="stylesheet" href="../styles/myFramework-shadow.css">
+        <link rel="stylesheet" href="../styles/myFramework-navigation.css">
+        <link rel="stylesheet" href="../styles/myFramework-dropdown.css">
+    </head>
+
+<body>
+<header class="container-fluid border border-3  mb-2 pt-3 pb-2 text-center text-uppercase text-success bg-info shadow-lg">
+        <h1 class="fs-2 text-warning">2023 Bootcamp in HTML+CSS</h1>
+        <p>ASU NASA STEM Summer Camp</p> 
+
+</header>
+
+<!--
+<nav class="nav nav-tabs">
+        <a class="nav-link active" aria-current="page" href="#">Home</a>
+        <a class="nav-link" href="#">Introduction</a>
+        <a class="nav-link" href="#">Cryptography</a>
+</nav>
+-->
+
+<!--
+<ul class="nav nav-pills">           
+    <li class="nav-item">  <a class="nav-link" href="">Home</a>   
+        <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Home</a>
+            </li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Separated link</a></li>
+          </ul>
+    </li>
+    <li class="nav-item">  <a  class="nav-link active" href="">Introduction</a></li>
+    <li class="nav-item">  <a  class="nav-link" href="">Cryptography</a></li>
+ </ul>
+-->
+
+
+
+ <!--
+ <nav class="nav nav-pills nav-fill">
+      <a class="nav-link active"  href="#">Active</a>
+      <a class="nav-link" href="#">Much longer nav link</a>
+      <a class="nav-link" href="#">Link</a>
+      <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+ </nav>
+
+-->
+
+<!--
+<nav>
+    <div class="nav nav-tabs" id="nav-tab" role="tablist">
+      <button class="nav-link active" id="nav-home-tab" data-bs-target="#nav-home"    type="button" ">Home</button>
+      <button class="nav-link" id="nav-profile-tab"     data-bs-target="#nav-profile" type="button" >Profile</button>
+      <button class="nav-link" id="nav-contact-tab"     data-bs-target="#nav-contact" type="button" >Contact</button>
+    </div>
+  </nav>
+  <div class="tab-content" id="nav-tabContent">
+    <div class="tab-pane fade show active" id="nav-home" >...</div>
+    <div class="tab-pane fade" id="nav-profile" >...</div>
+    <div class="tab-pane fade" id="nav-contact" >...</div>
+  </div>
+
+</nav>
+-->
+
+<!-- Nav tabs -->
+<ul class="nav nav-tabs" id="myTab">
+    <li class="nav-item">
+      <button class="nav-link active" id="home-tab" data-bs-target="#home" type="button">Home</button>
+    </li>
+    <li class="nav-item">
+      <button class="nav-link" id="profile-tab"  data-bs-target="#profile" type="button" >Profile</button>
+    </li>
+    <li class="nav-item">
+      <button class="nav-link" id="messages-tab"  data-bs-target="#messages" type="button" >Messages</button>
+    </li>
+    <li class="nav-item">
+      <button class="nav-link" id="settings-tab"  data-bs-target="#settings" type="button">Settings</button>
+    </li>
+  </ul>
+  
+  <!-- Tab panes -->
+  <div class="tab-content">
+    <div class="tab-pane active" id="home" >AAAA</div>
+    <div class="tab-pane" id="profile" >BBB</div>
+    <div class="tab-pane" id="messages" >CCC</div>
+    <div class="tab-pane" id="settings" >DDD</div>
+  </div>
+
+<script>
+  var TabList = document.querySelectorAll('#myTab button');
+  //alert(TabList.length); 
+    
+  TabList.forEach(function (myNode) {
+    //alert(myNode.innerHTML);
+
+
+    myNode.addEventListener('click', function (event) {
+
+      //alert(myNode.innerHTML);
+      TabList.forEach(function (myNode1) {
+        myNode1.classList.remove("active");
+      });
+      
+      myNode.classList.add("active");
+
+      var myTabContent = document.querySelectorAll('.tab-content div');
+      //alert("myTabCont count is " + myTabContent.length);
+      
+      myTabContent.forEach(function (myPane) {
+            myPane.classList.remove("active");
+           // alert("My Pane class = " + myPane.classList);
+      });
+      var thisPaneId = myNode.getAttribute("data-bs-target").slice(1);
+      //alert("thisPaneId = " + thisPaneId);
+      var thisPane   = document.getElementById(thisPaneId);
+      thisPane.classList.add('active');
+
+    })
+    
+  });
+
+</script>
+
+
+<main class="row">
+    <aside class="col col-2 border">
+        <div>
+            <div>
+                <a href="">Home</a>
+            </div>
+            <div>
+                <a href="">Introduction</a>
+            </div>
+            <div>
+                <a href="">Cryptography</a>
+            </div>
+        </div>
+    </aside>
+    
+    <section  class="col">
+      <div>  
+        <p> This is my first webpage</p>
+        <h3> Introduction </h3>
+        <ul>
+            <li>Algebra 1</li>
+            <li>Algebra 2</li>
+        </ul>
+
+
+        <div> TBA</div>
+
+        <div>
+            <div>
+                <h4>Wanjun Hu</h4>
+                <img src="OIP.jpg">
+            </div>
+         </div>   
+      </div>
+    </section>
+</main>
+<footer class="container-fluid border  border-2 border-warning">
+    <div class="row">
+        <div class = "col">
+            <ul>
+                <li>Home</li>
+                <li>Profile</li>
+            </ul> 
+            
+        </div>
+        <div class = "col">
+            <ul>
+                <li>Home 2</li>
+                <li>Profile 2</li>
+            </ul> 
+        </div>
+        <div class = "col">
+            <ul>
+                <li>Home 3</li>
+                <li>Profile 3</li>
+            </ul>   
+        </div>
+
+    </div>
+    Copyright: Albany State University
+</footer>
+
+</body>
+
+</html>
