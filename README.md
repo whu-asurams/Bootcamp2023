@@ -39,7 +39,7 @@ The registration is written in PhP. It is connected directly to a database hoste
 
 ## Breakdown of Bootstrap styles
 
-There are separate style files which come from the boostrap 5.0 style files. Each of them is about a particular CSS property. The following list is enough for most webpage development. Animation, transistion and transformation are not covered.
+There are separate style files which come from the boostrap 5.0 style files. Each of them is about a particular CSS property. The following list is enough for most webpage development. Animation, transistion and transformation are not covered. The following files are inside the folder "./styles".
 
 - backgroundColor
 - border
@@ -64,7 +64,7 @@ There are separate style files which come from the boostrap 5.0 style files. Eac
 - utilities
 - witth and height
 
-For navigation, some javascript is needed, which is included in "navigation.js".
+For navigation, some javascript is needed, which is included in "./registration/navigation.js".
 
 
 
